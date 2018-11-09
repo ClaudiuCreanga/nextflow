@@ -13,7 +13,7 @@ process convertToUpper {
     script:
     """
     #!/usr/bin/env python
-    data = { x: y }
+    data = { "$x": "$y" }
     """
 }
 
